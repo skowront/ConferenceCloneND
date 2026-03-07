@@ -39,7 +39,7 @@ jobs:
           cp -r polska-regionalna/. .
 
           # Custom domain for GitHub Pages
-          echo 'polska.regionalna.regios.org.pl' > CNAME
+          echo 'polskaregionalna.regios.org.pl' > CNAME
 
       - name: Fix accordion anchor links
         run: |
