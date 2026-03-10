@@ -1,8 +1,8 @@
 name: Deploy Single WP Page
 
 on:
-  schedule:
-    - cron: '0 0 * * *'
+  #schedule:
+  #  - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
